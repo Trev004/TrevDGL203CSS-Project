@@ -30,12 +30,18 @@
         </div>
     </nav>
 
-    <div>
-        <h1>About The Fork and Arrow</h1>
-        <p>Hi! we're The Fork and Arrow, a Locally owned and operated breakfast and lunch spot!</p>
-        <p>Located in the heart of downtown Campbell River, next to Spirit Square, we strive to bring you quality breakfast and lunch at an affordable price</p>
-        <p>We also host events and do catering. Whether that be your business event, large family gatherings or more, we'd be glad to provide you with an affordable brunch!</p>
-        <p>Thanks for taking the time to learn about us and what we do, we hope to see you in the restaurant someday!</p>
+    <div class="container pt-5">
+        <h1 class="display-1 text-center mt-3">About The Fork and Arrow</h1>
+        
+    </div>
+    <div class="container pt-5">
+        <div class="card w-75 mx-auto">
+            <div class="card-body">
+                <p class="card-text lead">Hi! We're The Fork and Arrow, a Locally owned and operated breakfast and lunch spot!</p>
+                <p class="card-text">Located in the heart of <a href="#" data-bs-toggle="tooltip" data-bs-title="Located at 509 13th Ave">downtown Campbell River</a>, next to Spirit Square, we strive to bring you quality breakfast and lunch at an affordable price</p>
+                <p class="card-text">We also host events and do catering. Whether that be your business event, large family gatherings or more, we'd be glad to provide you with an affordable brunch!</p>
+                <p class="card-text">Thanks for taking the time to learn about us and what we do, we hope to see you in the restaurant someday!</p></div>
+        </div>
     </div>
 
     <footer class="bg-success p-4 text-center mt-5">
@@ -54,5 +60,9 @@
       https://icons.getbootstrap.com/#icons 
     Footer based on assignment C-->
       </footer>
+      <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      </script>
 </body>
 </html>
