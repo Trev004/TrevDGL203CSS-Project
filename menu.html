@@ -34,44 +34,37 @@
         <h1 class="display-1 text-center pt-4">Menu</h1>
         <p class="text-center lead fs-3">Here's our menu! We serve all kinds of breakfast and lunch foods! Whether that's dine in, or order to go.</p>
         <p class="text-center fs-3">Come on in! and enjoy these delicious foods! We're located at <b>509 13th Ave, Campbell River</b></p>
-        <!-- Carousel Based on this example from Bootstrap Docs:https://getbootstrap.com/docs/5.2/components/carousel/#dark-variant -->
-        <div id="forkAndArrowMenuCaptions" class="carousel slide carousel-dark" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#forkAndArrowMenuCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#forkAndArrowMenuCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#forkAndArrowMenuCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images\Fork And Arrow Menu1.jpg" class="d-block w-75 mx-auto" alt="The Fork and Arrow Breakfast Menu">
-                <div class="carousel-caption d-none d-md-block">
-                  <p class="h5">Here's our options for our Breakfast Menu!</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images\Fork And Arrow Menu2.jpg" class="d-block w-75 mx-auto" alt="The Fork and Arrow Lunch Menu">
-                <div class="carousel-caption d-none d-md-block">
-                  <p class="h5">Some of our options available for lunch!</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images\Fork And Arrow Menu3.jpg" class="d-block w-75 mx-auto" alt="The Fork and Arrow Extras Menu">
-                <div class="carousel-caption d-none d-md-block">
-                  <p class="h5">Here are our extras you can order with your meal!</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#forkAndArrowMenuCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#forkAndArrowMenuCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
 
+        <div class="row text-center">
+          <div class="col"> <!-- Breakfast Menu Modal -->
+            <p class="fs-3">Our Breakfast Menu!</p>
+            <a data-bs-toggle="modal" data-bs-target="#BreakfastMenu">
+               <img src="images/Fork And Arrow Menu Breakfast.jpg" alt="Fork and Arrow Breakfast Menu" class="w-100 clickable">
+            </a>
+            <div class="modal fade" id="BreakfastMenu" tabindex="-1" aria-labelledby="BreakfastMenuLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="BreakfastMenuLabel">Breakfast Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/Fork And Arrow Menu Breakfast.jpg" alt="Fork and Arrow Breakfast Menu" class="w-100">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">ITEM 2</div>
+          <div class="col">ITEM 3</div>
+        </div>
+    </div>
+    <div class="container">
+      
+    </div>
     <footer class="p-4 text-center mt-5 branding-green">
         <p class="h3 text-light">Follow us on our socials!</p>
         <a class="btn btn-outline-light rounded-circle" href="https://www.facebook.com/profile.php?id=100083142737109" role="button">
