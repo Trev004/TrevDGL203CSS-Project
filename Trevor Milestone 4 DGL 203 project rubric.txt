@@ -1,0 +1,124 @@
+INSTRUCTIONS: Fill out the following form and upload the form to your GITHub repository. 
+Choose only one of the corresponding numbers in your answer for sections A-F.  
+Answer the questions in section G in sentence form.
+Please total your self-evaluation score at the bottom of the rubric.
+
+A. Code Quality 
+0 - Nothing - No submission
+1 - Below Expectations - Code renders but the code is unreadable 
+2 - Meets Expectations - Good formatting and uses naming conventions but can be improved
+3 - Exceeds Expectations - Code is exceptionally clean and best practices are used
+Your Answer: 3
+
+
+B. Content 
+0 - Nothing - No submission
+1 - Below Expectations - Content not related to assignment or project
+2 - Meets Expectations - Content is related to assignment or project and gets the point across
+3 - Exceeds Expectations - Content is exceptionally detailed and well put together
+Your Answer: 3
+
+
+C. Layout / Organization 
+0 - Nothing - No Submission
+1 - Below Expectations - Long codes with no divisions or random code layout
+2 - Meets Expectations - Code that is modular and divided into section declarations; subprograms
+3 - Exceeds Expectations - Code is exceptionally well organized. 
+Your Answer: 3
+
+
+D. Comments/Commits 
+0 - Nothing - No Submission
+1 - Below Expectations - Excessive, unnecessary, and irrelevant remarks
+2 - Meets Expectations - Comments identify authorship and code's intention
+3 - Exceeds Expectations - Comments and documentation are clear succinct; wizardry points are explained
+Your Answer: 2 (I probably should have used branches, I forgot to do that when working, so I moved to 2 from 3)
+
+
+E. Rendering 
+0 - Nothing - Page does not load or render
+1 - Below Expectations - Page renders, but has errors and/or has apparent design issues
+2 - Meets Expectations - Page renders and produces no errors
+3 - Exceeds Expectations - Page renders and displays properly for multiple screen sizes and browsers 
+Your Answer: 3
+
+F. Process
+0 - Nothing - Project not attempted
+1 - Below Expectations - code and documents not added to repository at correct times
+2 - Meets Expectations - code published as website, milestones met
+3 - Exceeds Expectations - all milestones accomplished, submissions organized, instructions carefully followed, steps thoroughly documented
+Your Answer: 3
+
+G. Self Evaluation Questions (half point each):
+
+1. How much time did you spend on this assignment/project?
+	GitHub says about 5 hours, but I'd say closer to 3 for the actual changes.
+2. How difficult did you feel this project was? Easy, moderate, difficult?
+	Moderate, it wasn't just blindly plugging in numbers, I made sure to use bootstrap classes
+		Which meant needing to go to their docs, and even then some trial and error (In a good way)
+3. What challenges did you come across while working on this project?
+	From a branding standpoint, they recently changed their menu, which meant I had to reconsider what would look good with
+		it colour wise, I eventually settled on a sort of olive green
+	From a technical standpoint, getting the image cards/modals to look right on different screen sizes I'd say.
+		I think it looks alright now, but that was after some testing with more Bootstrap classes
+4. What things would you like to learn more about after having worked on this assignment?
+	If I had to say anything, It'd be, if someone asked me to make a site for them, but didn't really care how,
+		is there any reason *not* to use Bootstrap? I don't really see why not? unless they wanted a site that has a unique layout
+		I guess (Bootstrap can look kinda "samey" across sites, which I like but I could see others not)?
+
+LINK TO REPO: https://github.com/Trev004/TrevDGL203CSS-Project
+Total Score: 19/20
+
+
+SUMMARY OF CHANGES:
+	The bulk of the changes were on the menu page, by converting to use a grid system and have image modals
+instead of using an image carousel. It's still responsive, by breaking down into different column numbers
+depending on screen size. Aside from that, it was increasing font size, which just meant Bootstrap classes, 
+I also used SCSS and a partial to change the pointer on the images, and to make the header and footer custom colours.
+On the About Us page, I added a couple Bootstrap classes to make the footer stay on the bottom of the page
+instead of just being attached to the end of the content (which wasn't long enough to make it sit on the bottom).
+I don't think I identified any changes that I didn't make
+
+SEMESTER REFLECTIONS
+	I feel good with what I've learned, I imagine it of being how CSS is actually used, being Bootstrap and SCSS over
+just writing CSS raw. I think most of it went well? I can't really think of anything that was too difficult or
+otherwise done poorly? I think if I were to change any aspects about the course, it'd be these two things:
+	1. Release answers for quiz questions after we complete the quizzes, or even after that quiz's time window is over.
+	I only say this because I know there's a few quiz questions that I'm unsure if I got them right? I mean I didn't get 100%
+	so obviously I got *something* wrong, I just can't go back and check what I got wrong.
+	2. This may just be personal taste, but I feel like a little *too* much time was spend on animations? I get why we need
+	to understand the basics of it (for SCSS, and Bootstrap reasons) but I never really felt any need to actually use it in our 
+	sites/projects? I also feel like I never see any sort of CSS animations in "actual" websites
+I'd keep the rest of the course the same? I can't think of any other pain points right now?
+
+	I'd say the workload was appropriate, I spent close to the average expected time on work. I can't really say above
+or below the average, since it varied from week to week.
+
+	If I had to pick a topic to spend more time on, it'd be using SCSS. As much as I love Bootstrap, it's pretty simple so I feel
+the right amount of time was spent on it. I wish more was on SCSS since it kinda feels like most of our learning on pre-Bootstrap/SCSS
+could have just been done in SCSS? I get why we did pure CSS first, since it's important to learn the basics and then
+build on them.
+
+	Anything that felt like it was missing? I'd say reasons to *not* use frameworks like Bootstrap and or SCSS/SASS.
+Maybe *I* just missed it, but from where I am now, I don't see any reason to use pure CSS over those two? SCSS, 
+from what I remember from class, can do most, if not all that CSS can do so why even bother with CSS?
+But this could maybe be me overthinking it, and real world scenarios vary so much it'd be hard to come up with
+one single reason/list of reasons?
+
+	Do I feel confident enough to tackle a project on my own? Both yes, and no
+I don't think this is necessarily CSS related, But I feel like there's a few key concepts missing before
+I can say "Yes" if someone were to ask me (assuming freelance) to make a website for them.
+Things such as:
+
+1. Where/How to host it (I know you responded to my question about this in milestone 3) Is that on me to figure out?
+	Or do I give them the code, and they're the ones to host it or figure out how to host it? (again, I imagine this is one of the things
+	that vary so much that it'd be hard to give a concrete answer?)
+2. What does the site need? Is this on me to figure out? Or would the client usually come with a list of requirements?
+3. How much would I even expect (money wise) from completing a website for someone? IE How much is "normal" to charge?
+	I only say this because I'd want to avoid asking too much and getting declined. And on the flip side, 
+	asking too little and undervaluing the work?
+	I imagine, like all answers that aren't a simple yes/no, that it depends on what the site needs, feature wise?
+
+	Aside from those 3, I'd say I could probably build a website? I mean as long as it's not pulling content from some other service, 
+HTML/CSS wise I could probably do it, yeah. And if they'd need something more slightly more advanced but ultra-customized, 
+WordPress maybe?
