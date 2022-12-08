@@ -3,6 +3,8 @@ Choose only one of the corresponding numbers in your answer for sections A-F.
 Answer the questions in section G in sentence form.
 Please total your self-evaluation score at the bottom of the rubric.
 
+REPO: https://github.com/Trev004/TrevDGL203CSS-Project
+
 A. Code Quality 
 0 - Nothing - No submission
 1 - Below Expectations - Code renders but the code is unreadable 
@@ -122,3 +124,5 @@ Things such as:
 	Aside from those 3, I'd say I could probably build a website? I mean as long as it's not pulling content from some other service, 
 HTML/CSS wise I could probably do it, yeah. And if they'd need something more slightly more advanced but ultra-customized, 
 WordPress maybe?
+
+LINK TO REPO: https://github.com/Trev004/TrevDGL203CSS-Project
